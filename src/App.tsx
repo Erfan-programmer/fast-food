@@ -933,7 +933,7 @@ export default function FoodOrderApp() {
 
         {/* Content */}
         <main className="max-w-7xl mx-auto px-4 py-8">
-          <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex flex-col-reverse lg:flex-row gap-8">
             {/* Main Menu Area */}
             <div className="lg:w-3/4 order-2 lg:order-1">
               {/* Promo Banner */}
@@ -942,7 +942,7 @@ export default function FoodOrderApp() {
                   <div className="inline-block bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
                     پیشنهاد ویژه
                   </div>
-                  <h2 className="text-2xl sm:text-3xl font-black mb-2 leading-tight">
+                  <h2 className="text-xl sm:text-3xl font-black mb-2 leading-tight">
                     ۲۰٪ تخفیف روی سفارش‌های
                     <br />
                     شام امشب!
