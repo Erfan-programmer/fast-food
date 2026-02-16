@@ -22,7 +22,6 @@ import {
   User,
   LogOut,
   ChevronLeft,
-  Clock
 } from "lucide-react";
 
 // ==========================================
